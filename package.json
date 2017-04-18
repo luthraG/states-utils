@@ -1,5 +1,5 @@
 {
-  "name"          : "us-states-util",
+  "name"          : "usa-states-util",
   "version"       : "1.0.0",
   "description"   : "A rich library that provides various utility functions to get/check name or USPS code of states and much more",
   "license"       : "MIT",
