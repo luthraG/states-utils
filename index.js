@@ -1,3 +1,5 @@
+var NODE_RATIFY                 = require('node-ratify');
+
 var US_STATE_NAME_TO_CODE       = {
         'Alaska'                                                : 'AK',
         'Alabama'                                               : 'AL',
@@ -83,7 +85,7 @@ function _reverse () {
 // Is given state code or state name is a valid state
 //
 function isUSAState (state) {
-    state = state ? state.toUpperCase() : null;
+    state = state && NODE_RATIFY.isString(state) ? state.toUpperCase() : null;
     return (US_STATE_CODE_TO_NAME[state] || US_STATE_NAME_UPPER_TO_CODE[state]) ? true : false;
 };
 
@@ -105,7 +107,7 @@ function getStates() {
 // Given a state USPS Code it finds the state name
 //
 function getStateName(stateCode) {
-    stateCode = stateCode ? stateCode.toUpperCase() : null;
+    stateCode = stateCode && NODE_RATIFY.isString(stateCode) ? stateCode.toUpperCase() : null;
 
     return US_STATE_CODE_TO_NAME[stateCode];
 };
@@ -114,7 +116,7 @@ function getStateName(stateCode) {
 // Given a state name it finds the USPS Code
 //
 function getUSPSCode(state) {
-    state = state ? state.toUpperCase() : null;
+    state = state && NODE_RATIFY.isString(state) ? state.toUpperCase() : null;
 
     return US_STATE_NAME_UPPER_TO_CODE[state];
 };

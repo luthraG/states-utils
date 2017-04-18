@@ -1,0 +1,30 @@
+{
+  "name"          : "us-states-util",
+  "version"       : "1.0.0",
+  "description"   : "A rich library that provides various utility functions to get/check name or USPS code of states and much more",
+  "license"       : "MIT",
+  "repository"    : "https://github.com/luthraG/us-states-util.git",
+  "author"        : {
+    "name"        : "Gaurav Luthra",
+    "email"       : "luthra.zenith@gmail.com"
+  },
+  "dependencies"  : {
+    "node-ratify" : ""
+  },
+  "engines"       : {
+    "node"        : ">=0.10.0"
+  },
+  "files"         : [
+    "index.js"
+  ],
+  "keywords"      : [
+    "states",
+    "USA",
+    "states-util",
+    "us-states-util",
+    "United states",
+    "United states of America",
+    "states utility",
+    "states utils"
+  ]
+}
