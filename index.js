@@ -1,5 +1,5 @@
 // Local Includes
-var STATES_DATA                                 = require(__dirname + '/data/statesData.js');
+var STATES_DATA                                 = require(__dirname + '/statesData.js');
 
 // System Includes
 var NODE_RATIFY                                 = require('node-ratify');
