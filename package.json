@@ -1,7 +1,7 @@
 {
-  "name"          : "usa-states-util",
+  "name"          : "states-utils",
   "version"       : "1.0.0",
-  "description"   : "A rich library that provides various utility functions to get/check name or USPS code of states and much more",
+  "description"   : "A rich library that provides various utility functions to get/check name or USPS code or capital of states or territories and much more",
   "license"       : "MIT",
   "repository"    : "https://github.com/luthraG/us-states-util.git",
   "author"        : {
@@ -25,6 +25,8 @@
     "United states",
     "United states of America",
     "states utility",
-    "states utils"
+    "states utils",
+    "USPS",
+    "capitals"
   ]
 }
