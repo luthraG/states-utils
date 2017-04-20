@@ -27,7 +27,7 @@ STATE_UTILS.getUSPSCode('New York');
 
 ### Clone the repo
 
-git clone https://github.com/luthraG/us-states-util.git
+git clone https://github.com/luthraG/states-utils.git
 
 ### API
 
