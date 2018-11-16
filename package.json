@@ -1,24 +1,24 @@
 {
-  "name"          : "states-utils",
-  "version"       : "1.0.8",
-  "description"   : "A rich library that provides various utility functions to get/check name or USPS code or capital of states or territories and much more",
-  "license"       : "MIT",
-  "repository"    : "https://github.com/luthraG/states-util.git",
-  "author"        : {
-    "name"        : "Gaurav Luthra",
-    "email"       : "luthra.zenith@gmail.com"
+  "name": "states-utils",
+  "version": "1.0.9",
+  "description": "A rich library that provides various utility functions to get/check name or USPS code or capital of states or territories and much more",
+  "license": "MIT",
+  "repository": "https://github.com/luthraG/states-util.git",
+  "author": {
+    "name": "Gaurav Luthra",
+    "email": "luthra.zenith@gmail.com"
   },
-  "dependencies"  : {
-    "node-ratify" : "~1.1.0"
+  "dependencies": {
+    "node-ratify": "~1.1.0"
   },
-  "engines"       : {
-    "node"        : ">=0.10.0"
+  "engines": {
+    "node": ">=0.10.0"
   },
-  "files"         : [
+  "files": [
     "index.js",
     "statesData.js"
   ],
-  "keywords"      : [
+  "keywords": [
     "states",
     "USA",
     "states-util",

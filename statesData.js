@@ -59,7 +59,7 @@ var STATES = {
         'Northern Mariana Islands'                              : 'MP',
         'Puerto Rico'                                           : 'PR',
         'Virgin Islands'                                        : 'VI',
-        'District Of Columbia'                                  : 'DC',   // This is federal district
+        'District of Columbia'                                  : 'DC',   // This is federal district
         'Marshall Islands'                                      : 'MH',   // This is an associated state
         'Palau'                                                 : 'PW',   // This is an associated state
         'Federated States of Micronesia'                        : 'FM'    // This is an associated state
