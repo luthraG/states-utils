@@ -47,6 +47,9 @@ function _toTitleCase(str) {
         str = str.trim();
         if (str.length > 2)
             return str.replace(/\b\w+/g, function(txt) {
+                if (txt.toLowerCase() === 'of') {
+                    return 'of';
+                }
                 return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
             });
         else
